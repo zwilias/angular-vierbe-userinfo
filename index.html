@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+
+<body class="logged-in userid-123">
+  <div ng-app="testApp" ng-controller="MainController">
+    <div>{{ isLoggedIn | json }}</div>
+    <div>{{ userId | json }}</div>
+  </div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="service.js"></script>
+  <script src="test.js"></script>
+</body>
+
+</html>

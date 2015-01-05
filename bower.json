@@ -1,0 +1,26 @@
+{
+  "name": "angular-vierbe-userinfo",
+  "version": "0.0.1",
+  "authors": [
+    "Ilias Van Peer <ilias@idlemonkeys.net>"
+  ],
+  "description": "Angular module providing a service to check for a logged in user on vier.be",
+  "main": "service.js",
+  "keywords": [
+    "angular",
+    "vier.be",
+    "drupal"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.3.0"
+  }
+}
